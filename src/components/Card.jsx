@@ -1,5 +1,5 @@
-import hp from "../assets/HP_logo.png";
-import dell from "../assets/Dell_logo.png";
+import hp from "../assets/hp_logo.png";
+import dell from "../assets/dell_logo.png";
 import asus from "../assets/asus_logo.png";
 import positivo from "../assets/positivo_logo.png";
 import generico from "../assets/generico_logo.png";
