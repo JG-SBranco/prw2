@@ -44,21 +44,21 @@ function Form({ onAdd }) {
     <div className="form-container">
 
       <select value={form.secao}onChange={e => setForm({ ...form, secao: e.target.value })}>
-          <option value="">Selecione uma seção</option>  {/* 👈 novo */}
+          <option value="">Selecione uma seção</option>
           <option value="computadores">Computadores</option>
-          <option value="acessórios">Acessórios</option>
+          <option value="acessorios">Acessórios</option>
           <option value="impressoras">Impressoras</option>
           <option value="games">Games</option>
           <option value="gadgets">Gadgets</option>
      </select>
 
       <select value={form.marca}onChange={e => setForm({ ...form, marca: e.target.value })}>
-          <option value="">Selecione uma marca</option> {/* 👈 novo */}
-          <option>HP</option>
-          <option>Dell</option>
-          <option>Positivo</option>
-          <option>Asus</option>
-          <option>Xing Ling genérico</option>
+         <option value="">Selecione uma marca</option>
+         <option value="HP">HP</option>
+         <option value="Dell">Dell</option>
+         <option value="Positivo">Positivo</option>
+         <option value="Asus">Asus</option>
+         <option value="generico">Xing Ling genérico</option>
       </select>
 
       <input
